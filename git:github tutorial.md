@@ -201,7 +201,7 @@ pull request, review, merge
 
 위 단계만 잘 따라오셔도 대회 참여에는 아무 문제 없어요! 그래도 좀 더 알아보고 싶다면 다음 링크를 클릭해주세요!
 
-git/github를 이용해 효과적으로 협업하기
+[git/github를 이용해 효과적으로 협업하기](https://github.com/Oasis-hackathon/2021-oasis-hackathon/blob/master/git:github%EB%A5%BC%20%EC%9D%B4%EC%9A%A9%ED%95%B4%20%ED%9A%A8%EA%B3%BC%EC%A0%81%EC%9C%BC%EB%A1%9C%20%ED%98%91%EC%97%85%ED%95%98%EA%B8%B0.md)
 
 ### Reference)
 
