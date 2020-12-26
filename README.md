@@ -21,7 +21,7 @@
 2. 팀원들은 사용 권한을 부여 받은 저장소 내에서 자유롭게 개발을 진행합니다.
 3. 최종결과물 제출시 업로드한 github 링크를 함께 제출합니다.
 
-git/github 활용 과정 중 발생하는 문의사항은 slack에서 **[[Staff]김정인](https://github.com/mywnajsldkf)**, **[Staff[김홍빈]](https://github.com/khb1109)**에게 문의해주세요!📣
+git/github 활용 과정 중 발생하는 문의사항은 slack에서 **[[Staff]김정인](https://github.com/mywnajsldkf)**, **[[Staff]김홍빈](https://github.com/khb1109)**에게 문의해주세요!📣
 
 
 
