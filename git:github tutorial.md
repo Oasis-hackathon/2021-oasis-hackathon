@@ -14,7 +14,9 @@
 
 4. 시작해보기
 
+5. 더 알아보기!
 
+   
 
 ## Git/Github란?
 
@@ -132,7 +134,7 @@ pull request, review, merge
 
    
 
-### 시작하기
+### 소스 기록, 커밋, 업로드
 
 1. 개발을 진행하신 후 `git add` 명령어를 이용해서 소스 코드를 업로드 합니다.
 
@@ -142,7 +144,7 @@ pull request, review, merge
 
 <img src="./img/add.png" alt="clone image" style="zoom:50%;" />
 
-- `add` 좀 더 알아볼까요?
+- **`add` 좀 더 알아볼까요?!**
 
   `git add <파일/디렉토리 경로>`
 
@@ -156,8 +158,55 @@ pull request, review, merge
 
   명령어를 실행한 디렉토리 이하에서 발생한 변경 내용만 포함하며, 해당 디렉토리 기존으로 상위 디렉토리의 변경 내용을 포함하지 않습니다.
 
-2. `git remote show origin` 을 통해 origin에 리모트 주소가 잘 등록되었는지 확인해봅니다.<img src="/Users/wnajsldkf/oasis-hackathon/git:github/img/remote.png" alt="remote" style="zoom:50%;" />
+2. `git remote show origin` 을 통해 origin에 리모트 주소가 잘 등록되었는지 확인해봅니다.<img src="./img/remote.png" alt="remote" style="zoom:50%;" />
 
-3. 작성한 소스 `commit`하기
-   - 변경된 내용 기록을 위해서 `commit` 작업이 필요합니다.
-   - 
+3. 변경된 내용을 기록하기 위해 `commit` 작업을 진행합니다.
+
+   ```
+   $ git commit -m "add : commit message"
+   ```
+
+   - 커밋은 시간순으로 저장됩니다. 최근 커밋부터 거슬러 올라가면 과거 변경 이력과 내용을 확인할 수 있습니다.
+   - 각 커밋은 영문/숫자로 이루어진 40자리 고유 이름이 붙습니다. 생성된 커밋 이름을 보고 각 커밋을 구분하고 사용합니다.
+     - 버그 수정, 기능 추가 등 특별한 의미가 있는 업데이트를 작업 별로 구분해서 각각 커밋하면, 나중에 이력을 보고 특정 변경 내용을 찾기 쉽답니다.
+   - 커밋 메시지는 필수로 입력해야 합니다. 원활한 협업을 위해서 적절한 commit message 사용이 정말 중요한데요! 좀 더 알아보고 싶으신 분들은 바로가기를 클릭해주세요. [바로가기](https://tttsss77.tistory.com/58)
+
+   ```
+   $ git status
+   ```
+
+   `git status` 명령어를 사용하면 현재 파일 상태를 확인 할 수 있습니다.
+
+   <img src="./img/commit.png" alt="remote" style="zoom:50%;" />
+
+4. `git push` 를 통해 작업한 내용을 github에 업로드합니다.
+
+   ```
+   git push origin master
+   ```
+
+   **origin** 원격 저장소(remote)의 주소입니다. (*이 예시에서는 https://github.com/Oasis-hackathon/2021-oasis-hackathon 이 되겠지요?*)
+
+   **master** 현재 자신이 위치한 branch 이름을 말합니다. *(이 예시에서는 master branch에 작업한 내용을 업로드하고 있네요!)*
+
+   <img src="./img/push.png" alt="remote" style="zoom:50%;" />
+
+   저장소에 방문하면 다음과 같이 업로드 된 것을 확인할 수 있습니다.
+
+   <img src="./img/github.png" alt="remote" style="zoom:50%;" />
+
+## 더 알아보기!
+
+소스 기록, 커밋, 업로드 기능을 모두 마스터하셨나요? 
+
+위 단계만 잘 따라오셔도 대회 참여에는 아무 문제 없어요! 그래도 좀 더 알아보고 싶다면 다음 링크를 클릭해주세요!
+
+git/github 좀 더 알아보기
+
+git/github를 이용해 효과적으로 협업하기
+
+### Reference)
+
+https://backlog.com/git-tutorial/kr/intro/intro1_3.html
+
+https://www.pigno.se/barn/tutorial-git/docs/#/

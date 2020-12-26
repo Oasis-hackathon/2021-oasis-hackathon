@@ -29,7 +29,9 @@ git/github 활용 과정 중 발생하는 문의사항은 slack에서 **[[Staff]
 
 괜찮아요! 자세한 메뉴얼을 제공해드릴게요.
 
-바로가기
+[git/github 사용 메뉴얼](https://github.com/Oasis-hackathon/2021-oasis-hackathon/blob/master/git:github%20tutorial.md)
 
+git/github 좀 더 알아보기
 
+git/github를 이용해 효과적으로 협업하기
 
