@@ -134,7 +134,7 @@ pull request, review, merge
 
 ### 시작하기
 
-1. 개발을 진행하신 후`git add` 명령어를 이용해서 소스 코드를 업로드 합니다.
+1. 개발을 진행하신 후 `git add` 명령어를 이용해서 소스 코드를 업로드 합니다.
 
    ```
    $ git add . 
@@ -142,4 +142,22 @@ pull request, review, merge
 
 <img src="./img/add.png" alt="clone image" style="zoom:50%;" />
 
-2. 
+- `add` 좀 더 알아볼까요?
+
+  `git add <파일/디렉토리 경로>`
+
+  작업 디렉토리의 변경 내용의 일부만 스테이징 영역에 넘기고 싶을 때 수정한 파일이나 디렉토리의 경로를 인자로 넘깁니다.
+
+  `git add -A`
+
+  작업 디렉토리 상에 어디에 위치하든 항상 동일하게 모든 변경 내용을 스테이징으로 넘깁니다.
+
+  `git add .`
+
+  명령어를 실행한 디렉토리 이하에서 발생한 변경 내용만 포함하며, 해당 디렉토리 기존으로 상위 디렉토리의 변경 내용을 포함하지 않습니다.
+
+2. `git remote show origin` 을 통해 origin에 리모트 주소가 잘 등록되었는지 확인해봅니다.<img src="/Users/wnajsldkf/oasis-hackathon/git:github/img/remote.png" alt="remote" style="zoom:50%;" />
+
+3. 작성한 소스 `commit`하기
+   - 변경된 내용 기록을 위해서 `commit` 작업이 필요합니다.
+   - 
