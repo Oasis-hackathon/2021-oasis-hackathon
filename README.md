@@ -21,17 +21,15 @@
 2. 팀원들은 사용 권한을 부여 받은 저장소 내에서 자유롭게 개발을 진행합니다.
 3. 최종결과물 제출시 업로드한 github 링크를 함께 제출합니다.
 
-git/github 활용 과정 중 발생하는 문의사항은 slack에서 **[[Staff]김정인](https://github.com/mywnajsldkf)**, **[[Staff]김홍빈](https://github.com/khb1109)**에게 문의해주세요!📣
+git/github 활용 과정 중 발생하는 문의사항은 slack에서 **[Staff]김정인]**, **[Staff]김홍빈**에게 문의해주세요!📣
 
 
 
-### git/github 사용은 처음이라...
+### git/github 사용은 처음이라...🤔
 
 괜찮아요! 자세한 메뉴얼을 제공해드릴게요.
 
 [git/github 사용 메뉴얼](https://github.com/Oasis-hackathon/2021-oasis-hackathon/blob/master/git:github%20tutorial.md)
-
-git/github 좀 더 알아보기
 
 git/github를 이용해 효과적으로 협업하기
 

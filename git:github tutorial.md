@@ -201,8 +201,6 @@ pull request, review, merge
 
 위 단계만 잘 따라오셔도 대회 참여에는 아무 문제 없어요! 그래도 좀 더 알아보고 싶다면 다음 링크를 클릭해주세요!
 
-git/github 좀 더 알아보기
-
 git/github를 이용해 효과적으로 협업하기
 
 ### Reference)
